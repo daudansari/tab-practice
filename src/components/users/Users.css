@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color: #EC89B2;
+    padding: 70px 0;
+   
+}
+.main_wrapper {
+    width: 400px;
+    margin: auto;
+    background-color:white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 1px  black;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 100;
+}
+.button{
+    width: 150px ;
+    margin: auto;
+}
+.button button{
+    background-color: #EC89B2;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}

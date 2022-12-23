@@ -1,0 +1,71 @@
+.main-container{
+    width: 600px;
+   margin: auto;
+   
+}
+.main-container h1{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+    text-transform: capitalize;
+}
+.table{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.info-border{
+    border-collapse: collapse;
+    background-color: rgb(231, 244, 244);
+    box-shadow: 0px 0px 6px 2px  grey;
+    color:black;
+   
+}
+
+
+thead{
+    font-size: 20px;
+    border: 2px solid black;
+    letter-spacing: 1px;
+}
+td{
+   
+    padding: 5px 10px;
+    font-size: 10px;
+    height: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+tr{
+    /* border-bottom: 1px solid black; */
+}
+
+button{
+    padding: 5px 16px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(76, 144, 152);
+}
+.two-button{
+    position: relative;
+    width: 350px;
+    margin: auto;
+}
+.next{
+    position: absolute;
+    right: 1px;
+}
+.prev{
+    left: 1px;
+}
+button:hover{
+    background-color: rgb(14, 114, 125);
+    color: white;
+}
+
